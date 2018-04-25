@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/musculacao"
+            android:icon="@drawable/musculacao"
+            android:title="Musculção" />
+        <item
+            android:id="@+id/danca"
+            android:icon="@drawable/danca"
+            android:title="Dança" />
+        <item
+            android:id="@+id/jump"
+            android:icon="@drawable/jump"
+            android:title="Jump"
+        <item
+            android:id="@+id/artesMarciais"
+            android:icon="@drawable/artesMarciais"
+            android:title="Artes Marciais"
+        <item
+            android:id="@+id/avaliacao"
+            android:icon="@drawable/avaliacao"
+            android:title="Avaliação" />
+    </group>
+
+
+
+</menu>
